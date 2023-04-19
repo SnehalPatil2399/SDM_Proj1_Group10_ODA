@@ -1,3 +1,4 @@
+#pending
 Functional Operations:
 1.   Homepage:
 		On the homepage there will be two tables: Book appointment and Hospital details. Also options for the user like search ,Home, login/signup and help on the top bar.
