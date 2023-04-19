@@ -4,7 +4,7 @@
 
 **Title:** Online Doctor Appointment System Document.  
    
-**Team:** 10  
+**Group:** 10  
 
     Snehal Patil (233180)  
     Neha Kewate (233172)  
@@ -12,7 +12,7 @@
     Shubham Ghodkhande (233212)  
     Harshal Nagtilak (233170)  
     Ashish Borole (233138)  
-    Pranay Patil (233185)      
+    Pranay Patil (233185)          
 
 **Objective:**    
 
@@ -21,7 +21,7 @@ provide a solution for the users to find a list of the doctors in a particular h
 their schedule as well as their availability so the user could get a clear idea and book the 
 appointment with ease. No need to visit the hospital physically.
 
-**Scope:**  
+**Scope:** 
 
 * The online booking system will allow patients to book appointments with doctors and 
 hospitals through a web-based platform.  
@@ -59,74 +59,59 @@ appointments and patient information.
 limit after the first appointment request.  
 
 **Non-functional Requirements:**
- Usability:
-The platform should be easy to use and navigate, with a user-friendly interface.
- Availability:
-The system should be available 24/7, with minimal downtime or maintenance issues.
- Compatibility:
-The system should be compatible with different devices and web browsers.
- Reliability:
-The system will back up all the data on a regular basis and recover in short time duration 
-to keep the system operational. The system should be able to handle a large number of 
-users.
- Scalability:
-The system should be scalable to accommodate future growth and expansion.
- Security:
-Only registered patients will be allowed to book an appointment of a particular doctor 
-and that patient must go through an authentication process.
-System will provide access to the content, operation using role based security 
-(authorization),i.e permission based on role.
-User confidential data will always be encrypted access communication.
- Maintainability:
+
+- Usability:  
+The platform should be easy to use and navigate, with a user-friendly interface.  
+* Availability:  
+The system should be available 24/7, with minimal downtime or maintenance issues.  
+* Compatibility:  
+The system should be compatible with different devices and web browsers.  
+* Reliability:  
+The system will back up all the data on a regular basis and recover in short time duration to keep the system operational. The system should be able to handle a large number of users.  
+* Scalability:  
+The system should be scalable to accommodate future growth and expansion.  
+* Security:  
+Only registered patients will be allowed to book an appointment of a particular doctor and that patient must go through an authentication process.System will provide access to the content, operation using role based security (authorization),i.e permission based on role.User confidential data will always be encrypted access communication.  
+* Maintainability:  
 Healthcare database software will be used to maintain System data Persistence.
-Where the IT operation team will easily monitor and configure the System using 
-administrative tools provided by Servers.
- Portability:
-The Portable Device Application system will provide a portable User Interface ( HTML, 
-CSS, JS) through which users will be able to access online appointment portals.
-System can be deployed to single server, multi-server, to any OS, Cloud (Azure or AWS 
-or GCP)
- Durability:
-System will retain the portal for 15 minutes even though the user loses internet 
-connection and joins again.
-System will maintain a wish list of doctors' for patients. The patient will be able to book 
-appointments from the wish list whenever needed.
- Efficiency:
-If there is high load of patients who are booking there appointments then system will be 
-efficient enough to handle all the patients and their appointments with same response 
-time.
- Safety:
+Where the IT operation team will easily monitor and configure the System using administrative tools provided by Servers.  
+* Portability:  
+The Portable Device Application system will provide a portable User Interface ( HTML, CSS, JS) through which users will be able to access online appointment portals.
+System can be deployed to single server, multi-server, to any OS, Cloud (Azure or AWS or GCP)  
+* Durability:  
+System will retain the portal for 15 minutes even though the user loses internet connection and joins again.
+System will maintain a wish list of doctors' for patients. The patient will be able to book appointments from the wish list whenever needed.  
+* Efficiency:  
+If there is high load of patients who are booking there appointments then system will be efficient enough to handle all the patients and their appointments with same response time.  
++ Safety:  
 Online appointment portal will be secure from malicious attack, fishing.
-Online appointment portal functionalities are protected from outside with proper firewall 
-configuration.
-Conclusion:
-The e-Hospital Appointment System is an essential tool for patients and doctors to efficiently 
-manage appointments in hospitals. The system's user-friendly interface, coupled with its robust 
-functionalities, makes it an ideal solution for booking, rescheduling, and cancelling 
-appointments.
-For E-R Diagram
-Business Entities:
+Online appointment portal functionalities are protected from outside with proper firewall configuration.  
+Conclusion:  
+The e-Hospital Appointment System is an essential tool for patients and doctors to efficiently manage appointments in hospitals. The system's user-friendly interface, coupled with its robust functionalities, makes it an ideal solution for booking, rescheduling, and cancelling appointments.  
+
+**Business Entities:**
 1. Patient: patient id, name, phone number, address.
 2. Doctor: doctor id, name, specialization, rating, email.
 3. Appointment: appointment id, patient id, doctor id, appointment date, time.
 4. Lab Test: test id, patient id, test name.
-Functional operations List:
- validate user
- change password
- forgot password
- get user details
- Login
- Logout
- Notify the patient about the availability of the doctor.
- Appointment Tracking by patient
- Request for an appointment
- search for doctors based on name
- cancellation of appointment by the doctor
- cancellation of appointment by the patient
- Rescheduling request of an appointment by patient
- Appointment Reminders:
- book a lab test
- view medical records
- maintain a waiting list
- update doctor’s availability status
- online payment for appointments and lab tests
+
+**Functional operations List:**
+- validate user
+* change password
+* forgot password
+* get user details
+* Login
+* Logout
+* Notify the patient about the availability of the doctor.
+* Appointment Tracking by patient
+* Request for an appointment
+* search for doctors based on name
+* cancellation of appointment by the doctor
+* cancellation of appointment by the patient
+* Rescheduling request of an appointment by patient
+* Appointment Reminders
+* book a lab test
+* view medical records
+* maintain a waiting list
+* update doctor’s availability status
++ online payment for appointments and lab tests
